@@ -259,28 +259,28 @@ export interface ClientLogo {
 }
 
 export const CLIENT_LOGOS: ClientLogo[] = [
-  { name: 'Arnel Imóveis', filename: '/logos/arnel.jpeg', color: '#e31e24' },
-  { name: 'Ricardo Imóveis', filename: '/logos/ricardoimoveis.jpeg', color: '#b5a287' },
-  { name: 'KR Empreendimentos', filename: '/logos/krcon.jpeg', color: '#a6824c' },
-  { name: 'Progetti', filename: '/logos/progetti.jpeg', color: '#1a3c5e' },
-  { name: 'Procave', filename: '/logos/procave.jpeg', color: '#007a33' },
-  { name: 'Hub Nogueira', filename: '/logos/hubnogueira.jpeg', color: '#1c244b' },
-  { name: 'Due Incorporadora', filename: '/logos/due.jpeg', color: '#000000' },
-  { name: 'JBem Imóveis', filename: '/logos/jbem.jpeg', color: '#d4af37' },
-  { name: 'Ijuí Imóveis', filename: '/logos/ijui.jpeg', color: '#daa520' },
-  { name: 'Balen Imóveis', filename: '/logos/balen.jpeg', color: '#ff4500' },
-  { name: 'Qualitá Imóveis', filename: '/logos/qualita.jpeg', color: '#5dade2' },
-  { name: 'Eco Construtora', filename: '/logos/eco.jpeg', color: '#f39c12' },
-  { name: 'Realiza Negócios', filename: '/logos/realiza.jpeg', color: '#003399' }
+  { name: 'Arnel Imóveis', filename: 'logos/arnel.jpeg', color: '#e31e24' },
+  { name: 'Ricardo Imóveis', filename: 'logos/ricardoimoveis.jpeg', color: '#b5a287' },
+  { name: 'KR Empreendimentos', filename: 'logos/krcon.jpeg', color: '#a6824c' },
+  { name: 'Progetti', filename: 'logos/progetti.jpeg', color: '#1a3c5e' },
+  { name: 'Procave', filename: 'logos/procave.jpeg', color: '#007a33' },
+  { name: 'Hub Nogueira', filename: 'logos/hubnogueira.jpeg', color: '#1c244b' },
+  { name: 'Due Incorporadora', filename: 'logos/due.jpeg', color: '#000000' },
+  { name: 'JBem Imóveis', filename: 'logos/jbem.jpeg', color: '#d4af37' },
+  { name: 'Ijuí Imóveis', filename: 'logos/ijui.jpeg', color: '#daa520' },
+  { name: 'Balen Imóveis', filename: 'logos/balen.jpeg', color: '#ff4500' },
+  { name: 'Qualitá Imóveis', filename: 'logos/qualita.jpeg', color: '#5dade2' },
+  { name: 'Eco Construtora', filename: 'logos/eco.jpeg', color: '#f39c12' },
+  { name: 'Realiza Negócios', filename: 'logos/realiza.jpeg', color: '#003399' }
 ];
 
 export const INTEGRATION_LOGOS: ClientLogo[] = [
-  { name: 'Imoview', filename: '/logos/imoview.jpeg', color: '#00537a' },
-  { name: 'Vista', filename: '/logos/vista.jpeg', color: '#5d6d7e' },
-  { name: 'SIGA CRM', filename: '/logos/siga.jpeg', color: '#0083ca' },
-  { name: 'Loft CRM', filename: '/logos/loft.jpeg', color: '#ff6c37' },
-  { name: 'Kurole', filename: '/logos/kurole.jpeg', color: '#8db600' },
-  { name: 'CV CRM', filename: '/logos/cv.jpeg', color: '#0f172a' },
-  { name: 'RD Station', filename: '/logos/rdstation.jpeg', color: '#000000', scale: 1.5 },
-  { name: 'Bitrix24', filename: '/logos/bitrix.jpeg', color: '#2fc6f6', scale: 1.5 }
+  { name: 'Imoview', filename: 'logos/imoview.jpeg', color: '#00537a' },
+  { name: 'Vista', filename: 'logos/vista.jpeg', color: '#5d6d7e' },
+  { name: 'SIGA CRM', filename: 'logos/siga.jpeg', color: '#0083ca' },
+  { name: 'Loft CRM', filename: 'logos/loft.jpeg', color: '#ff6c37' },
+  { name: 'Kurole', filename: 'logos/kurole.jpeg', color: '#8db600' },
+  { name: 'CV CRM', filename: 'logos/cv.jpeg', color: '#0f172a' },
+  { name: 'RD Station', filename: 'logos/rdstation.jpeg', color: '#000000', scale: 1.5 },
+  { name: 'Bitrix24', filename: 'logos/bitrix.jpeg', color: '#2fc6f6', scale: 1.5 }
 ];
