@@ -21,15 +21,16 @@ const Integrations: React.FC = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 items-center justify-items-center">
           {INTEGRATION_LOGOS.map((logo, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className="group relative flex items-center justify-center p-8 bg-gray-50/50 rounded-3xl border border-transparent hover:border-blue-100 hover:bg-white hover:shadow-xl transition-all duration-300 w-full h-32"
             >
-              <LogoImage 
-                src={logo.filename} 
-                alt={logo.name} 
+              <LogoImage
+                src={logo.filename}
+                alt={logo.name}
                 fallbackColor={logo.color}
-                className="max-h-12 w-auto object-contain transition-all duration-500"
+                className={`w-auto object-contain transition-all duration-500 ${logo.scale ? 'max-h-16' : 'max-h-12'}`}
+                style={logo.scale ? { transform: `scale(${logo.scale})` } : undefined}
               />
               <div className="absolute -bottom-2 opacity-0 group-hover:opacity-100 transition-opacity bg-[#111318] text-white text-[10px] font-black px-2 py-1 rounded-md pointer-events-none">
                 {logo.name}
