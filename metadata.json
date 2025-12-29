@@ -1,0 +1,8 @@
+{
+  "name": "Gptimob",
+  "description": "A high-performance landing page for gptimob, featuring AI virtual employees specialized for construction and real estate industries. Built with React and Tailwind CSS.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
